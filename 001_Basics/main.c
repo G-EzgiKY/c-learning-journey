@@ -3,13 +3,13 @@
 
 int main()
 {
-
+    // VALUES
     char myLetter = 'C';
     // int myNumber = 8;
     float myNumberf = 8.2;
     double myNumberlf = 888888.2222222;
 
-    printf("numara: %lf\n", myNumberlf);
+    printf("numara: %lf\n", myNumberlf); // output function: printf()
 
     const int x = 5;
 
@@ -20,10 +20,10 @@ int main()
     printf("\ninteger size: %d", sizeof(double));
     printf("\ninteger size: %d\n", sizeof(char));
 
-    //
+    // MATH OPERATIONS
     int myNumber, myNumber2, myExtraction, mySum, myMultiplication;
     float myDivision;
-    myNumber = 8;
+    // myNumber = 8;
     myNumber2 = 2;
     mySum = myNumber + myNumber2;
     myExtraction = myNumber - myNumber2;
@@ -34,6 +34,12 @@ int main()
     printf("Extracction: %d\n", myExtraction);
     printf("Multiplication: %d\n", myMultiplication);
     printf("division: %f\n", myDivision);
+
+    // INPUT FUNCTION
+    // int myNumber;
+    printf("Enter a number:");
+    scanf("%d", &myNumber); // input function: scanf()
+    printf("\nthe number you entered is %d", myNumber);
 
     return 0;
 }
